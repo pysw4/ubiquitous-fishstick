@@ -1,0 +1,20 @@
+静态转换 static_cast,强制转换，可能会出错
+动态转换 dynamic_cast<float>（2）;将基类指针转换为派生类指针
+常量转换：
+const int i = 10;
+int& r = const_cast<int&>(i); // 常量转换，将const int转换为int 只去除const
+重新解释转换：int i = 10; float f = reinterpret_cast<float&>(i); // 重新解释将int类型转换为float类型
+volatile	修饰符 volatile 告诉该变量的值可能会被程序以外的因素改变，如硬件或其他线程
+mutable	mutable 用于修饰类的成员变量。被 mutable 修饰的成员变量可以被修改，即使它们所在的对象是 const 的。
+static	用于定义静态变量，表示该变量的作用域仅限于当前文件或当前函数内，不会被其他文件或函数访问。
+
+给指针赋值就是 int *ptr=&a;
+double * const pt1 = ...;pt1是一个指向double类型的常量指针
+const double * pt1 = ...;pt1是一个指向double 类型 常量的指针
+引用必须在定义时初始化，并且一旦绑定到一个变量后，就不能再绑定到其他变量。
+引用的对象必须是一个变量，而指针必须是一个地址。
+引用一个常量时必须是const引用
+默认参数 int init(point* pt,int x=0;int y = 0){
+point->x = x;
+point->y = y;
+}

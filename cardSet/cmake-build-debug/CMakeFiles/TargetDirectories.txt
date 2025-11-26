@@ -1,0 +1,3 @@
+/Users/ishmael/CLionProjects/cardSet/cmake-build-debug/CMakeFiles/cardSet.dir
+/Users/ishmael/CLionProjects/cardSet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ishmael/CLionProjects/cardSet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
