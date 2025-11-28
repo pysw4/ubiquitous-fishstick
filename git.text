@@ -1,4 +1,4 @@
 git add name 
 git commit -m "commited a few files"
-git remote add origin main
-
+git remote add -u origin main
+git diff
