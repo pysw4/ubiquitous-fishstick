@@ -1,5 +1,0 @@
-git add name 
-git commit -m "commited a few files"
-git remote add -u origin main
-git diff
-what is the use of the diff commands
