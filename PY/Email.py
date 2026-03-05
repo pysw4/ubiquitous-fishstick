@@ -23,7 +23,9 @@ from email.utils import formataddr, make_msgid, formatdate
 import smtplib
 to_addrs = input('Email to:')
 # 创建邮件
-msg = MIMEText('Hello, this is a test email from Python!', 'plain', 'utf-8')
+msg = MIMEText('<html><body><h1>Hello</h1>' +
+    '<p>send by <a href="http://www.python.org">Python</a>...</p>'+
+    '<body><html>', 'html', 'utf-8')
 # 正确设置邮件头部
 msg['From'] = formataddr(('Ishmael', 'pingjingqing4@icloud.com'))
 msg['To'] = formataddr(('Recipient', to_addrs))
